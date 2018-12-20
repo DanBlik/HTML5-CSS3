@@ -1,0 +1,429 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+.container{
+	margin: 0 auto;
+	width: 1280px;
+}
+.wrap{
+	margin: 0 50px;
+}
+/*Первый блок хедер*/
+header{
+	background-color: #445162;
+	width: 100%;
+	height: 323px;
+	color: #fff;
+}
+h1{
+	padding-top: 42px;
+	padding-bottom: 30px;
+	font-size: 60px;
+	font-weight: 400;
+	text-align: left;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+header p{
+	width: 472px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: left;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+header img[alt="check"]{
+	margin-right: 11px;
+}
+header img[alt="shape"]{
+	float: right;
+	position: relative;
+	top: -235px;
+}
+/*Новый блок*/
+main{
+	width: 100%;
+}
+.aboutUs{
+	width: 100%;
+	height: 295px;
+}
+.aboutUs img[alt="video"]{
+	margin: -232px 0 0 700px;
+}
+.aboutUs h2{
+	margin-top: 49px;
+	margin-bottom: 30px;
+	color:  #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.aboutUs p{
+	color:  #333333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 649px;
+	height: 63px;
+	margin-bottom: 20px;
+}
+/*Новый блок*/
+.pluses{
+	width: 100%;
+	height: 418px;
+	background-color: #f5f5f5;
+}
+.pluses .wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.pluses .pluses__item{
+	padding-top: 30px;
+	width: 590px;
+	display: flex;
+}
+.pluses h2{
+	padding-top: 40px;
+	text-align: center;
+	color:  #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.pluses a{
+	margin-right: 9px;
+	width: 32px;
+	height: 32px;
+}
+.pluses a:hover{
+	outline: solid 1px #000;
+}
+.pluses p{
+	color:  #333333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 527px;
+}
+/*Новый блок Скриншоты*/
+.screenshots{
+	width: 100%;
+	height: 486px;
+}
+.screenshots h2{
+	padding-top: 41px;
+	padding-bottom: 35px;
+	text-align: center;
+	color:  #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;	
+}
+.screenshots .screenshots__item{
+	width: 590px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.screenshots .wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+.screenshots img[alt="screenshot"]{
+	float: left;
+}
+.screenshots h3{
+	margin: 0 0 0 215px;
+	width: 320px;
+	color:  #445161;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+
+.screenshots p{
+	    margin: 0 0 0 215px;
+	width: 359px;
+	height: 108px;
+	color:  #333333;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;	
+}
+
+/*Новый блок Рецензии*/
+.reviews{
+	width: 100%;
+	height: 420px;
+	background-color: #f5f5f5;
+}
+.reviews .wrap{
+	display: flex;
+}
+.reviews h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 35px;
+	color: #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+.reviews .reviews__item{
+	width: 574px;
+	height: 122px;
+	display: flex;
+}
+.left{
+	width: 50%;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.right{
+	width: 50%;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.left .reviews__item{
+	padding-bottom: 24px;
+}
+.right .reviews__item{
+	padding-bottom: 24px;
+}
+img[alt="circle"]{
+	padding-right: 16px;
+}
+.bgReview{
+	background: url('img/bg review.png') no-repeat;
+	background-size: 100%;
+	width: 483px;
+	height: 121px;
+
+}
+.reviews p{
+	color:  #333333;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 18px;
+	width: 436px;
+	height: 64px;
+	padding-left: 28px;
+    padding-top: 16px;
+}
+.reviews span{
+	color:  #989898;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	font-style: normal;
+}
+.reviews img[alt="circle"]{
+	width: 75px;
+	height: 75px;
+}
+/*New block*/
+.buyIt{
+	width: 100%;
+	height: 656px;
+}
+.buyIt .wrap{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+.buyIt h2/*Block name*/{
+	padding-top: 50px;
+	padding-bottom: 27px;
+	color:  #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+}
+.buyIt h4/*Name service*/{
+	padding-top: 12px;
+	padding-bottom: 13px;
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+}
+.buyIt h3 /*Price*/{
+	color:  #445162;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 61px;
+	text-align: center;
+	width: 298px;
+	height: 61px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.buyIt p{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+.buyIt a/*Button*/{
+	color:  #445161;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	width: 260px;
+	height: 40px;
+	background-color: #fff;
+	display: block;
+	text-decoration: none;
+	margin-left: 20px;
+	border-radius: 4px;
+	transition-duration: 0.5s;
+}
+.buyIt a:hover{
+	background-color: #CCE7F9;
+	color: #999;
+	transition-duration: 0.5s;
+}
+
+.standart{
+	width: 300px;
+	height: 306px;
+	background-color: #445161;
+	border-radius: 4px;
+}
+.premium{
+	width: 300px;
+	height: 404px;
+	background-color: #445161;
+	border-radius: 4px;
+}
+.lux{
+	width: 300px;
+	height: 499px;
+	background-color: #445161;
+	border-radius: 4px;
+}
+/*Contacts*/
+.contacts{
+	background-color: #445162;
+	width: 100%;
+	height: 509px;
+}
+.contacts h2{
+	padding-top: 48px;
+	color:  #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+}
+/*Форма слева в последнем блоке контактов*/
+form{
+	width: 500px;
+    height: 360px;
+    
+}
+input[type="text"]{
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+input[type="email"]{
+	margin-top: 20px;
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+input[name="text"]{
+	margin-top: 21px;
+	width: 500px;
+	height: 170px;
+	border-radius: 6px;
+	border: none;
+}
+input[type="submit"]{
+	margin-top: 20px;
+	background-color:  #ffffff;
+	border: none;
+	width: 140px;
+	height: 40px;
+	border-radius: 5px;
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-left: 180px;
+	transition-duration: 0.4s;
+}
+input[type="submit"]:hover{
+	color: #9dd;
+	transition-duration: 0.4s;
+}
+input[type="submit"]:active{
+	border: 1px solid #000;
+}
+/*Блок с контактными данными*/
+address{
+	height: 360px;
+	width: 260px;
+	margin-left: 46px;
+}
+.contacts .wrap{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+address a{
+	text-decoration: none;
+	display: inline-flex;
+	height: 23px;
+	line-height: 23px;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+address a:hover{
+	color: #9dd;	
+}
+img[alt="1"]/*Расстояние между ссылкой и картинкой соц.сетей - skype, icq..*/{
+	padding-right: 5px;
+}
+.social /*Ссылка на соц. сети*/{
+	margin-top: 26px;
+}
+img[alt="2"]/*Social icons*/{
+	 width: 240px;
+	 height: 42px;
+}
+/*Подвал*/
+footer{
+	background-color: #f5f5f5;
+	height: 27px;
+	width: 100%;
+}
+footer p{
+	text-align: center;
+	color:  #445162;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 24px;
+}
