@@ -83,7 +83,7 @@ main{
 	display: flex;
 	flex-wrap: wrap;
 }
-.pluses section{
+.pluses .pluses__item{
 	padding-top: 30px;
 	width: 590px;
 	display: flex;
@@ -125,7 +125,7 @@ main{
 	font-weight: 400;
 	line-height: 36px;	
 }
-.screenshots section{
+.screenshots .screenshots__item{
 	width: 590px;
     height: 150px;
     margin-bottom: 30px;
@@ -175,7 +175,7 @@ main{
 	font-weight: 400;
 	line-height: 36px;
 }
-.reviews section{
+.reviews .reviews__item{
 	width: 574px;
 	height: 122px;
 	display: flex;
@@ -194,10 +194,10 @@ main{
 	flex-wrap: wrap;
 	flex-direction: column;
 }
-.left section{
+.left article{
 	padding-bottom: 24px;
 }
-.right section{
+.right article{
 	padding-bottom: 24px;
 }
 img[alt="circle"]{
@@ -220,7 +220,7 @@ img[alt="circle"]{
 	padding-left: 28px;
     padding-top: 16px;
 }
-.reviews article p{
+.reviews span{
 	color:  #989898;
 	font-size: 14px;
 	font-weight: 400;
