@@ -194,10 +194,10 @@ main{
 	flex-wrap: wrap;
 	flex-direction: column;
 }
-.left article{
+.left .reviews__item{
 	padding-bottom: 24px;
 }
-.right article{
+.right .reviews__item{
 	padding-bottom: 24px;
 }
 img[alt="circle"]{
