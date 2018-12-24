@@ -1,0 +1,368 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+body a:hover{
+	text-decoration: none;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+}
+
+header{
+	background: #445162;
+	width: 100%;
+	height: 323px;
+}
+h1{
+	color: #fff !important;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	padding-bottom: 10px;
+}
+.row__header{
+	height: 324px;
+}
+header p{
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	background: url('img/check_icon.png') no-repeat 0 2px;
+	padding-left: 30px !important;
+}
+/**/
+.aboutProduct{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.aboutProduct h2{
+	/* Style for "About your" */
+width: 254px;
+height: 28px;
+color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+margin-bottom: 30px;
+}
+.aboutProduct p{
+	color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+/**/
+.pluses h2{
+	padding-top: 50px;
+	color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+margin-bottom: 29px;
+}
+.pluses{
+	background-color: #f5f5f5;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.pluses__item{
+	margin-bottom: 35px;
+}
+.pluses__item p{
+	width: 526px;
+height: 63px;
+color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.pluses__item a{
+	display: block;
+	margin-right: 9px;
+	width: 32px;
+	height: 32px;
+}
+
+/**/
+.screenshots{
+	padding-bottom: 30px;
+}
+.screenshots__item{
+	margin-bottom: 20px;
+}
+.screenshots h2{
+	margin-top: 51px;
+	margin-bottom: 35px;
+	color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+}
+.screenshotText{
+	margin-left: 15px;
+}
+.screenshotText h3{
+width: 310px;
+height: 23px;
+color: #445161;
+font-family: "Arial MT";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+.screenshotText p{
+	color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+/***/
+.reviews{
+	background-color: #f5f5f5;
+	padding-bottom: 26px;
+}
+.reviews__item{
+	margin-bottom: 24px;
+}
+.reviews h2{
+	color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 35px;
+}
+img[alt="circle"]{
+	width: 75px;
+	height: 75px;
+	margin-right: 16px;
+}
+.reviews p{
+	width: 420px;
+	padding-left: 20px;
+	color: #333333;
+font-family: "Arial - Italic MT";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+}
+.text1{
+	padding-top: 12px;
+}
+.reviews span{
+color:  #989898;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	font-style: normal;
+}
+.bgReview{
+	background: url('img/bg_review.png') no-repeat;
+	background-size: auto;
+	width: 503px;
+	height: 121px;
+
+}
+
+/**/
+.buyIt{
+	padding-bottom: 50px;
+}
+.buyIt h2{
+	padding-top: 50px;
+	color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+}
+.standart{
+	width: 300px;
+	height: 326px;
+	background-color: #445161;
+	border-radius: 4px;
+}
+.premium{
+	width: 300px;
+	height: 424px;
+	background-color: #445161;
+	border-radius: 4px;
+}
+.lux{
+	width: 300px;
+	height: 525px;
+	background-color: #445161;
+	border-radius: 4px;
+}
+
+/*Styles for sections buy it*/
+.buyIt h2/*Block name*/{
+	padding-top: 50px;
+	padding-bottom: 27px;
+	color:  #445161;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+}
+.buyIt h4/*Name service*/{
+	padding-top: 12px;
+	padding-bottom: 13px;
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+}
+.buyIt h3 /*Price*/{
+	color:  #445162;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 61px;
+	text-align: center;
+	width: 298px;
+	height: 61px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.buyIt p{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 14px;
+}
+.buyIt a/*Button*/{
+	color:  #445161;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	width: 260px;
+	height: 40px;
+	background-color: #fff;
+	display: block;
+	text-decoration: none;
+	margin-left: 20px;
+	border-radius: 4px;
+	transition-duration: 0.5s;
+}
+.buyIt a:hover{
+	background-color: #CCE7F9;
+	color: #999;
+	transition-duration: 0.5s;
+}
+/**/
+.contacts{
+	background-color: #445162;
+}
+.contacts h2{
+	text-align: center;
+	color: #ffffff;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+padding-top: 50px;
+}
+/**/
+form{
+	width: 500px;
+    height: 360px;
+    
+}
+input[type="text"]{
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+input[type="email"]{
+	margin-top: 20px;
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+input[name="text"]{
+	margin-top: 21px;
+	width: 500px;
+	height: 170px;
+	border-radius: 6px;
+	border: none;
+}
+input[type="submit"]{
+	margin-top: 20px;
+	background-color:  #ffffff;
+	border: none;
+	width: 140px;
+	height: 40px;
+	border-radius: 5px;
+	color:  #445162;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-left: 180px;
+	transition-duration: 0.4s;
+}
+input[type="submit"]:hover{
+	color: #9dd;
+	transition-duration: 0.4s;
+}
+input[type="submit"]:active{
+	border: 1px solid #000;
+}
+
+
+address a{
+	text-decoration: none;
+	display: inline-flex;
+	height: 23px;
+	line-height: 23px;
+	color:  #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 18px;
+}
+address a:hover{
+	color: #9dd;	
+}
+img[alt="1"]/*Расстояние между ссылкой и картинкой соц.сетей - skype, icq..*/{
+	padding-right: 5px;
+}
+.social /*Ссылка на соц. сети*/{
+	margin-top: 26px;
+}
+img[alt="2"]/*Social icons*/{
+	 width: 240px;
+	 height: 42px;
+}
+/**/
+footer{
+	background-color: #f5f5f5;
+	height: 27px;
+	width: 100%;
+}
+footer p{
+	text-align: center;
+	color:  #445162;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 24px;
+}
