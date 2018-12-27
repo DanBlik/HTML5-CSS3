@@ -21,10 +21,17 @@
 		<main>
 			<section class="aboutUs">
 				<div class="wrap">
-					<h2>About your product</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum. <br></p>
-					<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-					<img src="img/video.jpg" alt="video">
+					
+						<h2>About your product</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum. <br></p>
+						<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+					
+					
+					
+					<video class="video" src="video/video.mp4" controls poster="img/poster.jpg" loop muted>
+						
+					</video>
+
 				</div>
 			</section>	
 			<section class="pluses">
@@ -169,8 +176,9 @@
 					<h2>Contacts</h2>
 						<div class="wrap">
 								<form action="#" method="get">
-									<input type="text" name="firstname" placeholder="Your name:">
-									<input type="email" name="email" placeholder="Your email:">
+									<input type="text" name="firstname" placeholder="Your name:" required>
+									<input type="tel" name="phoneNum" placeholder="Your phone number:" required pattern = "7[0-9]{10}">
+									<input type="email" name="email" placeholder="Your email:" required pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
 									<input type="text" name="text" placeholder="Your message:">
 									<input type="submit" name="button" value="SEND">
 								</form>

@@ -5,6 +5,9 @@
 body{
 	font-family: Arial;
 }
+.clearfix{
+	clear: both;
+}
 .container{
 	margin: 0 auto;
 	width: 1280px;
@@ -53,9 +56,16 @@ main{
 	width: 100%;
 	height: 295px;
 }
+
 .aboutUs img[alt="video"]{
 	margin: -232px 0 0 700px;
 }
+.video{
+	width: 430px;
+	height: 245px;
+	margin: -232px 0 0 700px;
+}
+
 .aboutUs h2{
 	margin-top: 49px;
 	margin-bottom: 30px;
@@ -63,6 +73,7 @@ main{
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 36px;
+	width: 254px;
 }
 .aboutUs p{
 	color:  #333333;
@@ -72,6 +83,7 @@ main{
 	width: 649px;
 	height: 63px;
 	margin-bottom: 20px;
+	width: 649px;
 }
 /*Новый блок*/
 .pluses{
@@ -204,7 +216,7 @@ img[alt="circle"]{
 	padding-right: 16px;
 }
 .bgReview{
-	background: url('img/bg review.png') no-repeat;
+	background: url('img/bg_review.png') no-repeat;
 	background-size: 100%;
 	width: 483px;
 	height: 121px;
@@ -322,7 +334,7 @@ img[alt="circle"]{
 .contacts{
 	background-color: #445162;
 	width: 100%;
-	height: 509px;
+	height: 569px;
 }
 .contacts h2{
 	padding-top: 48px;
@@ -345,6 +357,13 @@ input[type="text"]{
 	border: none;
 }
 input[type="email"]{
+	margin-top: 20px;
+	width: 500px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+input[type="tel"]{
 	margin-top: 20px;
 	width: 500px;
 	height: 40px;
