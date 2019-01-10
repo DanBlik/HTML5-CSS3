@@ -213,7 +213,8 @@ main{
 	padding-bottom: 24px;
 }
 img[alt="circle"]{
-	padding-right: 16px;
+	margin-right: 16px;
+	border-radius: 37px;
 }
 .bgReview{
 	background: url('img/bg_review.png') no-repeat;
@@ -445,4 +446,18 @@ footer p{
 	font-weight: 400;
 	letter-spacing: 0.3px;
 	line-height: 24px;
+}
+.svg-inline--fa{
+	height: auto;
+}
+.socials{
+	margin-top: 8px !important;
+	font-size: 45px !important;
+	margin: 0;
+	padding: 0 3px;
+	height: 48px;
+}
+.socials_contacts{
+	padding-right: 2px;
+	font-size: 40px;
 }
